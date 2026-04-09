@@ -1,54 +1,63 @@
-# MINEPATH
+# 💣 MINEPATH
 
-MINEPATH is a chicken-themed browser game built using React, Vite, and Tailwind CSS. The game features an engaging environment where players navigate through various challenges, all while enjoying the fun of chicken-themed gameplay.
+A fast-paced, chicken-themed minesweeper survival game — built for mobile, playable as an Android APK.
 
-## Project Structure
+## Download
 
-The project's directory structure is organized as follows:
+📲 **[Download APK → Latest Release](https://github.com/ypatole035-ai/MinepathV5/releases/latest)**
 
-```
-src/
-├── components/
-├── audio/
-├── data/
-├── store/
-├── styles/
-└── utils/
-```
+Install directly on Android. No Play Store required.
 
-- **components/**: Contains all React components used in the game.
-- **audio/**: Houses the audio files for sound effects and music.
-- **data/**: Stores all the game data including levels, scores, and player information.
-- **store/**: Manages the state of the application using a centralized store.
-- **styles/**: Contains all the Tailwind CSS styles and custom stylesheets.
-- **utils/**: Contains utility functions and helpers that are used throughout the application.
+---
 
-## Installation Instructions
+## What is MINEPATH?
 
-To get started with MINEPATH, follow these steps:
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/ypatole035-ai/minepath.git
-   ```
-2. Navigate to the project directory:  
-   ```bash
-   cd minepath
-   ```
-3. Install the required dependencies:  
-   ```bash
-   npm install
-   ```
+MINEPATH is a grid-based survival game where you navigate a minefield one tile at a time. Every step could be your last. Reveal safe tiles, collect seeds, chain combos, and reach the checkpoint — without stepping on a mine.
 
-## Development Commands
+It's minesweeper — but with momentum, stakes, and style.
 
-To start the development server, run:
-```bash
-npm run dev
-```
+---
 
-This command will start the Vite development server, allowing you to see your changes in real-time. To build the project for production, use:
-```bash
-npm run build
-```
+## How to Play
 
-Happy gaming!
+- Tap tiles to reveal them
+- Avoid mines hidden across the grid
+- Reach the **checkpoint tile** to clear the level
+- Collect **seeds** (in-game currency) by surviving
+- Chain safe reveals to build **combos** — up to **10x multiplier**
+- Use **Peek** to preview a tile before stepping (costs seeds)
+- Find **power-ups** hidden in tiles — shields, slow-mo, reveals, and more
+
+Lose all your hearts → Game Over.
+
+---
+
+## Worlds & Progression
+
+| World | Levels | Hazards |
+|---|---|---|
+| 🌾 Chicken Farm | 1–9 | Basic mines, small grid |
+| 🦇 Dark Cave | 10–19 | Bigger grids, obstacles |
+| 🌋 Volcano | 20–29 | Moving mines, lava tiles |
+| 🚀 Deep Space | 30+ | Gravity flips, max chaos |
+
+Every **10th level** is a Boss Level — mine density spikes hard.
+
+---
+
+## Features
+
+- **Campaign Mode** — 40+ levels across 4 worlds, progress saved
+- **Endless Mode** — infinite scaling difficulty
+- **World Select** — jump to any unlocked world
+- **Chicken Skins** — cosmetic skins with passive abilities
+- **Shop** — spend seeds on skins, accessories, power-up upgrades
+- **Achievements** — unlock badges for milestones
+- **Combo System** — streak multipliers up to 10x
+- **Timer** — countdown per level, scales with world difficulty
+
+---
+
+## Built By
+
+**DeVen (DeVenLucaz)** — indie developer, built entirely on Android using Termux and Claude.
