@@ -1,20 +1,18 @@
 # 💣 MINEPATH
 
-A fast-paced, chicken-themed minesweeper survival game — built for mobile, playable as an Android APK.
+> *A chicken that walks a minefield. One wrong step. No second chances.*
 
-## Download
+MINEPATH is a grid-based survival game built for Android. Navigate a hidden minefield tile by tile, chain combos, collect seeds, and reach the checkpoint before the timer runs out — or before you step on something fatal.
 
-📲 **[Download APK → Latest Release](https://github.com/ypatole035-ai/MinepathV5/releases/latest)**
-
-Install directly on Android. No Play Store required.
+It started as a browser experiment. Five versions later, it's a full Android game with 4 worlds, 40+ levels, a progression system, shop, achievements, and a combo multiplier that goes up to 10x.
 
 ---
 
-## What is MINEPATH?
+## Download
 
-MINEPATH is a grid-based survival game where you navigate a minefield one tile at a time. Every step could be your last. Reveal safe tiles, collect seeds, chain combos, and reach the checkpoint — without stepping on a mine.
+📲 **[Download APK — MINEPATH V5](https://github.com/ypatole035-ai/MinepathV5/releases/latest/download/MINEPATH.apk)**
 
-It's minesweeper — but with momentum, stakes, and style.
+Install directly on Android. No Play Store. No account. Just install and play.
 
 ---
 
@@ -23,41 +21,80 @@ It's minesweeper — but with momentum, stakes, and style.
 - Tap tiles to reveal them
 - Avoid mines hidden across the grid
 - Reach the **checkpoint tile** to clear the level
-- Collect **seeds** (in-game currency) by surviving
 - Chain safe reveals to build **combos** — up to **10x multiplier**
-- Use **Peek** to preview a tile before stepping (costs seeds)
+- Long press a tile to **Peek** before stepping (costs seeds)
 - Find **power-ups** hidden in tiles — shields, slow-mo, reveals, and more
+- Lose all your hearts → Game Over
 
-Lose all your hearts → Game Over.
+The early game is unforgiving on purpose. Farm World is one-hit-kill — no hearts, no mercy. Survive long enough and the game starts giving you room to breathe. Then it takes it back.
 
 ---
 
 ## Worlds & Progression
 
-| World | Levels | Hazards |
+| World | Levels | What Changes |
 |---|---|---|
-| 🌾 Chicken Farm | 1–9 | Basic mines, small grid |
-| 🦇 Dark Cave | 10–19 | Bigger grids, obstacles |
-| 🌋 Volcano | 20–29 | Moving mines, lava tiles |
-| 🚀 Deep Space | 30+ | Gravity flips, max chaos |
+| 🌾 Chicken Farm | 1–9 | One-hit-kill. Small grid. Learn or die. |
+| 🦇 Dark Cave | 10–19 | Hearts introduced. Bigger grids. Obstacles appear. |
+| 🌋 Volcano | 20–29 | Moving mines. Lava tiles. Timer gets aggressive. |
+| 🚀 Deep Space | 30+ | Gravity flips. Maximum chaos. No comfort zone. |
 
-Every **10th level** is a Boss Level — mine density spikes hard.
+Every **10th level** is a Boss Level — mine density and obstacles spike hard with no warning.
 
 ---
 
 ## Features
 
-- **Campaign Mode** — 40+ levels across 4 worlds, progress saved
-- **Endless Mode** — infinite scaling difficulty
+- **Campaign Mode** — 40+ levels, progress saved automatically
+- **Endless Mode** — infinite scaling, no checkpoint, pure survival
 - **World Select** — jump to any unlocked world
-- **Chicken Skins** — cosmetic skins with passive abilities
+- **Chicken Skins** — unique passive abilities per skin, not just cosmetics
 - **Shop** — spend seeds on skins, accessories, power-up upgrades
-- **Achievements** — unlock badges for milestones
-- **Combo System** — streak multipliers up to 10x
-- **Timer** — countdown per level, scales with world difficulty
+- **Achievements** — milestone and playstyle unlocks
+- **Combo System** — 2x → 3x → 5x → 10x streak multiplier
+- **Timer** — escalating drain rate, not just a countdown
+
+---
+
+## See Where It Started
+
+MINEPATH V1 is still live as a browser game — no install, just open and play:
+
+🌐 **[Play MINEPATH V1 in browser →](https://ypatole035-ai.github.io/minepath/)**
+
+V1 is raw. One world, no shop, no skins, no combos — just the core loop that started this. Worth playing before V5 to feel the difference five versions make.
+
+---
+
+## What's Coming — V6
+
+V6 is already designed. 33 documented improvements across game feel, visuals, and mechanics. The biggest ones:
+
+- **Farm world goes back to instant death** — the tension that made V1 addictive, restored
+- **Skins get unique shapes and idle animations** — not palette swaps, actual characters
+- **Hearts persist per world** — no more accidental refills crossing level boundaries
+- **Mine numbers get bold color coding** — 1 through 8, each a distinct color, readable under pressure
+- **Checkpoint tile pulses faster as you get close** — the goal tile should feel like a goal
+- **Game Over tells you why** — time out vs mine hit, with a tip based on how you died
+
+The full V6 design document is in the repo for anyone who wants to build ahead.
+
+---
+
+## Contribute
+
+I'm not a developer. MINEPATH was built entirely on an Android phone using AI tools — no PC, no IDE, no formal background in software. Just curiosity and iteration.
+
+If you're a developer and see something worth fixing or building — the V6 notes are a complete roadmap. PRs are open. No gatekeeping, no process. If it makes the game better, it's welcome.
+
+The project is simple enough to understand in one read. Complex enough to be worth improving.
 
 ---
 
 ## Built By
 
-**DeVen (DeVenLucaz)** — indie developer, built entirely on Android using Termux and Claude.
+**DeVen — [DeVenLucaz](https://github.com/ypatole035-ai)**
+Independent creator. Pune, India.
+Building games, music, and interactive fiction entirely on Android with AI assistance.
+
+⭐ If this project is interesting to you — as a game, as an experiment, or as proof that the tools have changed — a star on the repo means something.
