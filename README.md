@@ -85,7 +85,7 @@ The full V6 design document is in the repo for anyone who wants to build ahead.
 
 ## Contribute
 
-I'm not a developer. MINEPATH was built entirely on an Android phone using AI tools — no PC, no IDE, no formal background in software. Just curiosity and iteration.
+I'm not a developer. MINEPATH was built entirely on an Android phone using AI tools and termux — no PC, no IDE, no formal background in software. Just curiosity and iteration.
 
 If you're a developer and see something worth fixing or building — the V6 notes are a complete roadmap. PRs are open. No gatekeeping, no process. If it makes the game better, it's welcome.
 
