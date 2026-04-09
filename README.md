@@ -83,6 +83,14 @@ The full V6 design document is in the repo for anyone who wants to build ahead.
 
 ---
 
+## Other Games
+
+| Game | Play |
+|---|---|
+| 🔓 WORD HEIST — Vault cracking word game | [Play](https://ypatole035-ai.github.io/word-heist/) |
+
+---
+
 ## Contribute
 
 I'm not a developer. MINEPATH was built entirely on an Android phone using AI tools and termux — no PC, no IDE, no formal background in software. Just curiosity and iteration.
