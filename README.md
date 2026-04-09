@@ -68,6 +68,8 @@ V1 is raw. One world, no shop, no skins, no combos — just the core loop that s
 
 ## What's Coming — V6
 
+[Full V6 design document →](https://github.com/ypatole035-ai/MinepathV5/blob/main/V6_DESIGN.md)
+
 V6 is already designed. 33 documented improvements across game feel, visuals, and mechanics. The biggest ones:
 
 - **Farm world goes back to instant death** — the tension that made V1 addictive, restored
