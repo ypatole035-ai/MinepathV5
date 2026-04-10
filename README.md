@@ -85,8 +85,6 @@ The full V6 design document is in the repo for anyone who wants to build ahead.
 
 ## Other Games
 
-## Other Games
-
 | Game | Play |
 |---|---|
 | 🔓 WORD HEIST V1 — Vault cracking word game (original) | [Play](https://ypatole035-ai.github.io/word-heist/) |
