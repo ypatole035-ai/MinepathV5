@@ -60,7 +60,7 @@ Every **10th level** is a Boss Level — mine density and obstacles spike hard w
 
 MINEPATH V1 is still live as a browser game — no install, just open and play:
 
-🌐 **[Play MINEPATH V1 in browser →](https://ypatole035-ai.github.io/minepath/)**
+| 💣 MINEPATH V1 — Where it started | [Play](https://ypatole035-ai.github.io/minepath/) / [Download APK](https://github.com/ypatole035-ai/minepath/releases/latest/download/MINEPATH_V1.apk) |
 
 V1 is raw. One world, no shop, no skins, no combos — just the core loop that started this. Worth playing before V5 to feel the difference five versions make.
 
